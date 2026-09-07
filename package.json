@@ -1,0 +1,7 @@
+{
+  "name": "vm-net-probe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Network-isolation probe for a GPE Firecracker sandbox VM: attempts TCP connects to host, management subnet, sibling VMs and the internet, and reports what is reachable.",
+  "scripts": { "dev": "node probe.js", "start": "node probe.js" }
+}
